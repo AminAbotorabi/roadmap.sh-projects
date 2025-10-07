@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(255, 177, 92);
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    display: none;
+
+}
+
+.container.show{
+    display: block;
+}
+
+img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+p,
+h3 {
+    color: #5B2012;
+}
+
+p {
+    font-size: small;
+    margin: 20px;
+}
+
+button {
+    padding: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    border: none;
+    border-radius: 100px;
+    font-weight: bold;
+    height: 35px;
+    cursor: pointer;
+}
+
+.accept-btn {
+    background-color: #5B2012;
+    color: white;
+}
